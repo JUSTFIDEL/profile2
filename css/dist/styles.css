@@ -1,0 +1,258 @@
+body {
+  background-color: #F3EFE0;
+  color: #727878;
+  margin: 0 !important;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Ubuntu", sans-serif;
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+}
+
+h1 {
+  font-size: 4rem;
+  font-weight: bold;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 3.34rem;
+  color: #59BAB7;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+h3 {
+  font-size: 2rem;
+  color: #59BAB7;
+}
+
+p {
+  font-size: 1rem;
+}
+
+ul {
+  list-style-type: none;
+  margin-left: 0;
+  padding: 0;
+}
+ul :hover {
+  background-color: #bdc0c0;
+}
+ul :hover i {
+  font-size: 12px;
+  transition: all 0.3s;
+}
+ul li {
+  margin-left: 0;
+}
+
+.lead {
+  color: #727878;
+  font-size: 22px;
+}
+
+.head-para {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.8rem;
+}
+
+.jumbotron-fluid {
+  color: white;
+  height: 100vh;
+  padding: 200px auto 0;
+  background: url(../images/background-image.jpg) no-repeat center center fixed;
+  background-size: cover;
+  /* for IE9+, Safari 4.1+, Chrome 3.0+, Firefox 3.6+ */
+  -webkit-background-size: cover;
+  /* for Safari 3.0 - 4.0 , Chrome 1.0 - 3.0 */
+  -moz-background-size: cover;
+  /* optional for Firefox 3.6 */
+  -o-background-size: cover;
+  /* for Opera 9.5 */
+  margin: 0;
+  /* to remove the default white margin of body */
+  padding: 0;
+  /* to remove the default white margin of body */
+  overflow: hidden;
+  position: relative;
+}
+
+.w-up {
+  padding: 15%;
+  position: absolute;
+  z-index: 2;
+}
+
+.overlay {
+  background-color: #22A39F;
+  opacity: 0.75;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+}
+
+.btn-radius {
+  border-radius: 30px;
+  height: 30px;
+}
+
+#profile {
+  padding: 4% 17%;
+  line-height: 1.5;
+  background-color: #fff;
+}
+#profile img {
+  height: 230px;
+  border: 10px solid #F3EFE0;
+  border-radius: 50%;
+  justify-content: center;
+}
+
+.profile-sub-con {
+  display: flex;
+  text-align: left;
+  justify-content: space-between;
+}
+.profile-sub-con div {
+  flex: 1;
+  margin: 3% 3% 3% 0;
+}
+
+.profile-info-hd {
+  color: black;
+  font-weight: bold;
+  line-height: 1;
+  margin-bottom: 0;
+}
+
+#experience {
+  width: 100%;
+  padding: 4% 17%;
+  line-height: 1.5;
+}
+#experience h3 {
+  text-align: left;
+}
+#experience .sec-p-head {
+  color: #434242;
+  font-weight: bold;
+}
+#experience .experience-sub-cont {
+  display: flex;
+  text-align: left;
+  margin-bottom: 30px;
+}
+#experience .div-1 {
+  flex: 1;
+}
+#experience .div-2 {
+  flex: 2;
+}
+
+#Abilities {
+  padding: 4% 17%;
+  line-height: 1.5;
+  background-color: #fff;
+}
+#Abilities h3 {
+  text-align: left;
+}
+
+.abilities-sub-hd {
+  display: flex;
+  text-align: left;
+}
+.abilities-sub-hd div {
+  flex: 1;
+  margin: 3% 3% 3% 0;
+}
+
+.abilities-info-hd {
+  color: black;
+  font-weight: bold;
+  line-height: 1;
+  margin-bottom: 0;
+}
+
+.btn-radius1 {
+  background-color: #1C8784;
+  border: none;
+  border-radius: 5px;
+  color: #e6e6e6;
+  padding: 6px 12px;
+}
+
+.checked {
+  color: #1C8784;
+  margin-right: 1px;
+}
+
+i {
+  font-size: 10px;
+}
+
+.empty {
+  margin-right: 1px;
+}
+
+.stars {
+  float: right;
+}
+
+#projects {
+  width: 100%;
+  padding: 4% 17%;
+  line-height: 1.5;
+}
+#projects img {
+  height: 300px;
+}
+
+.project-cont {
+  display: flex;
+}
+
+.project-img {
+  flex: 1;
+  position: relative;
+}
+
+.project-overlay {
+  height: 300px;
+  position: absolute;
+  left: 4%;
+  right: 4%;
+  background-color: black;
+  opacity: 0.5;
+  z-index: 5;
+  display: none;
+}
+
+#contact {
+  width: 100%;
+  padding: 4% 17%;
+  line-height: 1.5;
+  background-color: #434242;
+  color: white;
+}
+#contact h2 {
+  font-size: 3.34rem;
+  color: #fff;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+#contact a {
+  text-decoration: none;
+  margin-left: 10px;
+  position: relative;
+  top: -5px;
+  color: #727878;
+}
+#contact a :hover {
+  color: #bdc0c0;
+}
