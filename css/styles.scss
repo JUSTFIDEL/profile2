@@ -1,7 +1,7 @@
 body {
   background-color: #F3EFE0;
   color: #727878;
-  margin: 0 auto !important;
+  margin: 0 !important;
   padding: 0;
   font-family: 'Montserrat', sans-serif;
   font-family: 'Ubuntu', sans-serif;
@@ -36,14 +36,6 @@ ul {
   list-style-type: none;
   margin-left: 0;
   padding: 0;
-}
-
-.container {
-  max-width: 100%;
-}
-
-nav {
-  width: 100%
 }
 
 #nav-container.container-fluid.cont-wd {
@@ -141,7 +133,7 @@ nav.navbar ul {
 }
 
 .w-up {
-  padding: 15%;
+  padding: 20%;
   position: absolute;
   z-index: 2;
 }
@@ -186,7 +178,7 @@ nav.navbar ul {
 
   div {
     flex: 1;
-    margin: 3% 3% 3% 0;
+    //margin: 3% 3% 3% 0;
   }
 }
 
@@ -252,7 +244,7 @@ nav.navbar ul {
 
   div {
     flex: 1;
-    margin: 3% 3% 3% 0;
+    //margin: 3% 3% 3% 0;
   }
 }
 
@@ -320,9 +312,10 @@ section#projects {
   display: block;
 }
 
+
 /*** Default shared CSS ****/
 figure.figurefx {
-  width: 600px;
+  //width: 600px;
   margin: 20px auto;
 	padding: 0;
 	display: block;
@@ -420,6 +413,7 @@ figure.pushup:hover figcaption{
   ul {
     display: flex;
     justify-content: space-around;
+    flex-direction: column;
 
     
   }
@@ -456,11 +450,251 @@ figure.pushup:hover figcaption{
 
 
 
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+
+      body {
+        margin: 10px auto;
+        
+    }
+
+    .logo {
+      margin-left: 0;
+      height: 30px;
+    }
+
+    #main-logo {
+      display: none;
+    }
+
+    h1 {
+      color: red;
+      font-size: 2.5rem;
+    }
+
+    h2 {
+      font-size: 2.2rem;
+    }
+
+    .head-para {
+      font-size: 1.3rem;
+    }
+
+    .lead {
+      font-size: 1.1rem;
+    }
+
+    nav {
+
+          button {
+            margin-right: 10px;
+          }
+
+          li {
+            padding-right: 20px;
+          }
+      
+          li a{
+            text-align: right;
+            padding-right: 40px;
+            
+          }
+
+    }
+
+    
+    #profile {
+      padding: 4% 5%;
+      line-height: 1.5;
+      background-color: #fff;
+      display: inline-block;
+    
+      img {
+        height: 130px;
+        border: 10px solid #F3EFE0;
+        border-radius: 50%;
+        margin: 15px;
+        
+      }
+
+      .profile-sub-con {
+        display: block;
+        text-align: center;
+        
+      }
+    }
+
+    #experiences {
+      width: 100%;
+      padding: 4% 5%;
+      line-height: 1.5;
+    
+      h3 {
+        text-align: left;
+      }
+      
+      .experience-sub-cont {
+       display: block;
+       text-align: left;
+       margin-bottom: 30px;
+      }
+  
+    }
+
+    #abilities {
+      padding: 4% 5%;
+    }
+    
+    .abilities-sub-hd {
+      display: block;
+      margin-bottom: 20px;
+    }
+    
+    .abilities-info-hd {
+      margin-bottom: 0.7rem;
+    }
+
+    
+    // Project Section
+
+section#projects {
+  padding: 4% 5%;
+  line-height: 1.5;
+
+  img {
+    width: 100%;
+    overflow: hidden;
+  }
+}
+
+.image-container {
+
+  display: block;
+}
+
+
+    
+
+    #contact {
+      a {
+        color: #727878;
+        font-weight: bold;
+        text-decoration: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 4% 10%;
+      }
+
+      span {
+        margin-left: 10px;
+      }
+
+    li.footer-li {
+
+      
+      margin: 15px;
+
+      :hover {
+        color: rgb(206, 202, 202);
+      }
+    }
+
+}
+
+  
+
+}
+@media only screen and (min-width: 480px) and(max-width: 992px) {
+
+      body {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+
+    .logo {
+      margin-left: 20px;
+      height: 60px;
+    }
+
+    #main-logo {
+      font-size: 1.3rem;
+    }
+
+    nav {
+
+          button {
+            margin-right: 20px;
+          }
+
+          li {
+            padding-right: 40px;
+          }
+      
+          li a{
+            text-align: right;
+            padding-right: 40px;
+            
+          }
+
+    }
+
+    
+    #profile {
+      padding: 4% 10%;
+      line-height: 1.5;
+      background-color: #fff;
+      display: inline-block;
+    
+      img {
+        height: 230px;
+        border: 10px solid #F3EFE0;
+        border-radius: 50%;
+        
+      }
+
+      .profile-sub-con {
+        display: block;
+        text-align: center;
+        
+      }
+    }
+
+    #contact {
+      a {
+        color: #727878;
+        font-weight: bold;
+        text-decoration: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      span {
+        margin-left: 10px;
+      }
+
+    li.footer-li {
+
+      
+      margin: 15px;
+
+      :hover {
+        color: rgb(206, 202, 202);
+      }
+    }
+
+}
+
+  
+
+}
 @media only screen and (max-width: 992px) {
 
-      .container {
-        width: 992px;
-        margin: 0 auto;
+      body {
+        margin: 0;
+        padding: 0;
+        width: 100%;
     }
 
     .logo {
