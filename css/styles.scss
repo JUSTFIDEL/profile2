@@ -38,6 +38,10 @@ ul {
   padding: 0;
 }
 
+.container {
+  max-width: 100%;
+}
+
 #nav-container.container-fluid.cont-wd {
   display: flex;
   justify-content: space-between;
