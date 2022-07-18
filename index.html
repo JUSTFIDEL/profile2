@@ -7,7 +7,7 @@
     
     <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
     <title>My Playground</title>
 
     <link rel="icon" href="images/favicon-3.ico">
@@ -31,61 +31,58 @@
     
     <!-- <script src="index.js"></script> -->
   </head>
-  <body>
+
+  <body id="navbar-cont" data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example" tabindex="0">
 
         <div class="container-fluid">
-            <nav id="navbar-example2" class="navbar nav-pills navbar-expand-lg bg-light fixed-top px-3 mg-rt my-nav">
-              <div id="nav-container" class="container-fluid">
-                <div id="logo-cont" class="logo-cont">
-                  <a href="#">
-                    <img class="logo" src="images/logo.svg" alt="logo">
-                  </a>
-                  <a id="main-logo" class="navbar-brand" href="#">JustFidel</a>
-                </div>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-                  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    
-                    <li class="nav-item navbar-custom">
-                      <a class="nav-link navbar-text" href="#jumbotron-fluid">Home</a>
-                    </li>
-                    
-                    <li class="nav-item navbar-custom">
-                      <a class="nav-link navbar-text" href="#profile">Profile</a>
-                    </li>
-
-                    <li class="nav-item navbar-custom">
-                      <a class="nav-link navbar-text" href="#experiences">Experiences</a>
-                    </li>
-
-                    <li class="nav-item navbar-custom">
-                      <a class="nav-link navbar-text" href="#abilities">Abilities</a>
-                    </li>
-
-                    <li class="nav-item navbar-custom">
-                      <a class="nav-link navbar-text" href="#projects">Projects</a>
-                    </li>
-
-                    <li class="nav-item navbar-custom">
-                      <a class="nav-link navbar-text" href="#contact">Contacts</a>
-                    </li>
-
-
-                    
-                  </ul>
-                  
-                </div>
+          <nav id="navbar-example2" class="navbar nav-pills navbar-expand-lg bg-light fixed-top px-3 mg-rt my-nav">
+            <div id="nav-container" class="container-fluid">
+              <div id="logo-cont" class="logo-cont">
+                <a href="#">
+                  <img class="logo" src="images/logo.svg" alt="logo">
+                </a>
+                <a id="main-logo" class="navbar-brand" href="#">JustFidel</a>
               </div>
-            </nav>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  
+                  <li class="nav-item navbar-custom">
+                    <a class="nav-link navbar-text" href="#jumbotron-fluid">Home</a>
+                  </li>
+                  
+                  <li class="nav-item navbar-custom">
+                    <a class="nav-link navbar-text" href="#profile">Profile</a>
+                  </li>
+
+                  <li class="nav-item navbar-custom">
+                    <a class="nav-link navbar-text" href="#experiences">Experiences</a>
+                  </li>
+
+                  <li class="nav-item navbar-custom">
+                    <a class="nav-link navbar-text" href="#abilities">Abilities</a>
+                  </li>
+
+                  <li class="nav-item navbar-custom">
+                    <a class="nav-link navbar-text" href="#projects">Projects</a>
+                  </li>
+
+                  <li class="nav-item navbar-custom">
+                    <a class="nav-link navbar-text" href="#contact">Contacts</a>
+                  </li>
+
+
+                  
+                </ul>
+                
+              </div>
+            </div>
+          </nav>
         </div>
-    
 
-    
-
-     
-      <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example" tabindex="0">
+        <div>
         
           <!-- Jumbotron Section -->
            
@@ -103,9 +100,7 @@
 
             <!-- Profile Section -->
             
-            <div class="container">
-
-                  <section id="profile" class="profile-sec">
+            <section id="profile" class="profile-sec">
                   <div class="profile-hd">
                     <h2>Profile</h2>
                     <p class="lead">I'm a creative Webdeveloper</p>
@@ -135,17 +130,12 @@
                     <p>Got inspired? Copied the theme? Or do you just like the website? No problem, just buy me a beer and make me happy!</p>
                     <button class="btn btn-warning btn-sm btn-radius"><b>Donate</b></button>
                   </div>
-                </section>
+            </section>
 
-            </div>
-
-            
 
             <!-- Experiences Section -->
 
-            <div class="container">
-
-                  <section id="experiences" class="experience-sec">
+            <section id="experiences" class="experience-sec">
 
                   <div>
 
@@ -412,16 +402,12 @@
                     </div>
                   </div>
 
-                </section>
-
-            </div>
+            </section>
             
 
             <!-- Abilities Section -->
 
-            <div class="container">
-
-                    <section id="abilities" class="abilities-sec">
+            <section id="abilities" class="abilities-sec">
                     <div class="profile-hd">
                       <h2>Abilities</h2>
                       <p class="lead">
@@ -885,15 +871,13 @@
 
                     </div>
 
-                  </section>
-            </div>
+            </section>
+            
             
 
             <!-- Projects Section -->
 
-            <div class="container">
-
-                <section id="projects" class="project-sec">
+            <section id="projects" class="project-sec">
 
                         <div>
                           <h2>Projects</h2>
@@ -949,17 +933,14 @@
 
                     
 
-                    </section>
+            </section>
 
-            </div>
 
             
             
             <!-- Contacts Section -->
 
-            <div class="container">
-
-                  <footer id="contact" class="contact-sec">
+            <footer id="contact" class="contact-sec">
 
                   <div class="footer-cont">
                     
@@ -969,32 +950,34 @@
                     </p>
 
                     <hr class="my-4 hr-line">
+                    <div>
 
-                    <ul class="footer-ul">
+                      <ul class="footer-ul">
 
-                      <li class="footer-li">
-                        <a href="http://www.twitter.com/fideBABA01"><i class="fa-brands fa-twitter-square fa-2x"></i><span>http://www.twitter.com</span></a>
-                      </li>
-
-                      <li class="footer-li">
-                        <a href="http://www.facebook.com/fidelity1010"><i class="fa-brands fa-facebook-square fa-2x"></i><span>http://www.facebook.com</span></a>
-                      </li>
-                    
-                      <li class="footer-li">
-                        <a href="mailto:fidenki1429@gmail.com"><i class="fa-solid fa-envelope fa-2x"></i><span>http://www.gmail.com</span></a>
-                      </li>
+                        <li class="footer-li">
+                          <a href="http://www.twitter.com/fideBABA01"><i class="fa-brands fa-twitter-square fa-2x"></i><span>http://www.twitter.com</span></a>
+                        </li>
+  
+                        <li class="footer-li">
+                          <a href="http://www.facebook.com/fidelity1010"><i class="fa-brands fa-facebook-square fa-2x"></i><span>http://www.facebook.com</span></a>
+                        </li>
                       
-                    </ul>
+                        <li class="footer-li">
+                          <a href="mailto:fidenki1429@gmail.com"><i class="fa-solid fa-envelope fa-2x"></i><span>http://www.gmail.com</span></a>
+                        </li>
+                        
+                      </ul>
+  
+                      <hr class="my-4 hr-line"> 
 
-                    <hr class="my-4 hr-line"> 
+                    </div>
+                    
 
                   </div>
 
-                </footer>
-          
-            </div>
+            </footer>
        
-      </div>
+        </div>
     
 
   
