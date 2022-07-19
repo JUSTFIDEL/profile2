@@ -436,6 +436,228 @@ figure.pushup:hover figcaption{
 }
  
 
+@media only screen and (max-width: 992px) {
+
+  body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.logo {
+  margin-left: 20px;
+  height: 60px;
+}
+
+#main-logo {
+  font-size: 1.3rem;
+}
+
+nav {
+
+      button {
+        margin-right: 20px;
+      }
+
+      li {
+        padding-right: 40px;
+      }
+  
+      li a{
+        text-align: right;
+        padding-right: 40px;
+        
+      }
+
+}
+
+
+#profile {
+  padding: 4% 10%;
+  line-height: 1.5;
+  background-color: #fff;
+  display: inline-block;
+
+  img {
+    height: 230px;
+    border: 10px solid #F3EFE0;
+    border-radius: 50%;
+    
+  }
+
+  .profile-sub-con {
+    display: block;
+    text-align: center;
+    
+  }
+}
+
+#contact {
+  a {
+    color: #727878;
+    font-weight: bold;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  span {
+    margin-left: 10px;
+  }
+
+li.footer-li {
+
+  
+  margin: 15px;
+
+  :hover {
+    color: rgb(206, 202, 202);
+  }
+}
+
+}
+
+
+
+}
+
+
+
+@media only screen and (min-width: 480px) and(max-width: 991px) {
+
+body {
+margin: 0;
+padding: 0;
+width: 100%;
+}
+
+.logo {
+margin-left: 20px;
+height: 60px;
+}
+
+#main-logo {
+font-size: 1.3rem;
+}
+
+nav {
+
+  button {
+    margin-right: 20px;
+  }
+
+  li {
+    padding-right: 40px;
+  }
+
+  li a{
+    text-align: right;
+    padding-right: 40px;
+    
+  }
+
+}
+
+
+#profile {
+padding: 4% 10%;
+line-height: 1.5;
+background-color: #fff;
+display: inline-block;
+
+img {
+height: 230px;
+border: 10px solid #F3EFE0;
+border-radius: 50%;
+
+}
+
+.profile-sub-con {
+display: block;
+text-align: center;
+
+}
+}
+
+#experiences {
+width: 100%;
+padding: 4% 10%;
+line-height: 1.5;
+
+h3 {
+text-align: left;
+}
+
+.experience-sub-cont {
+display: block;
+text-align: left;
+margin-bottom: 30px;
+}
+
+}
+
+#abilities {
+padding: 4% 10%;
+}
+
+.abilities-sub-hd {
+display: block;
+margin-bottom: 20px;
+}
+
+.abilities-info-hd {
+margin-bottom: 0.7rem;
+}
+
+
+// Project Section
+
+section#projects {
+padding: 4% 10%;
+line-height: 1.5;
+
+img {
+width: 100%;
+overflow: hidden;
+}
+}
+
+.image-container {
+
+display: block;
+}
+
+
+
+
+#contact {
+a {
+color: #727878;
+font-weight: bold;
+text-decoration: none;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+span {
+margin-left: 10px;
+}
+
+li.footer-li {
+
+
+margin: 15px;
+
+:hover {
+color: rgb(206, 202, 202);
+}
+}
+
+}
+
+}
 
 
 
@@ -488,97 +710,90 @@ figure.pushup:hover figcaption{
           }
 
     }
-}
 
-    
-    #profile {
-      padding: 4% 5%;
-      line-height: 1.5;
-      background-color: #fff;
-      display: inline-block;
-    
-      img {
-        height: 130px;
-        border: 10px solid #F3EFE0;
-        border-radius: 50%;
-        margin: 15px;
-        
+  #profile {
+        padding: 4% 5%;
+        line-height: 1.5;
+        background-color: #fff;
+        display: inline-block;
+      
+        img {
+          height: 130px;
+          border: 10px solid #F3EFE0;
+          border-radius: 50%;
+          margin: 15px;
+          
+        }
+
+        .profile-sub-con {
+          display: block;
+          text-align: center;
+          
+        }
       }
 
-      .profile-sub-con {
+      #experiences {
+        width: 100%;
+        padding: 4% 5%;
+        line-height: 1.5;
+      
+        h3 {
+          text-align: left;
+        }
+        
+        .experience-sub-cont {
         display: block;
-        text-align: center;
-        
-      }
-    }
-
-    #experiences {
-      width: 100%;
-      padding: 4% 5%;
-      line-height: 1.5;
-    
-      h3 {
         text-align: left;
+        margin-bottom: 30px;
+        }
+    
+      }
+
+      #abilities {
+        padding: 4% 5%;
       }
       
-      .experience-sub-cont {
-       display: block;
-       text-align: left;
-       margin-bottom: 30px;
+      .abilities-sub-hd {
+        display: block;
+        margin-bottom: 20px;
       }
-  
-    }
+      
+      .abilities-info-hd {
+        margin-bottom: 0.7rem;
+      }
 
-    #abilities {
+      
+      // Project Section
+
+    section#projects {
       padding: 4% 5%;
-    }
-    
-    .abilities-sub-hd {
-      display: block;
-      margin-bottom: 20px;
-    }
-    
-    .abilities-info-hd {
-      margin-bottom: 0.7rem;
+      line-height: 1.5;
+
+      img {
+        width: 100%;
+        overflow: hidden;
+      }
     }
 
-    
-    // Project Section
-
-section#projects {
-  padding: 4% 5%;
-  line-height: 1.5;
-
-  img {
-    width: 100%;
-    overflow: hidden;
-  }
-}
-
-.image-container {
-
-  display: flex;
-  flex-direction: column;
-
-  
-}
-
-
-
-
-    
+    .image-container {
+      display: flex;
+      flex-direction: column; 
+    }
 
     #contact {
+
+      h2 {
+        height: 2rem;
+      }
       
       a {
-        color: #727878;
         font-weight: bold;
         text-decoration: none;
-      //   display: flex;
-      //   justify-content: center;
-      //   align-items: center;
-      //   padding: 4% 5%;
-      // }
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        //padding: 4% 5%;
+      }
 
       span {
         margin-left: 10px;
@@ -587,7 +802,7 @@ section#projects {
     li.footer-li {
 
       
-      margin: 15px;
+      margin: 5px;
 
       :hover {
         color: rgb(206, 202, 202);
@@ -600,229 +815,6 @@ section#projects {
       flex-direction: column;
     }
 
-}
-
-  
-
-}
-@media only screen and (min-width: 480px) and(max-width: 992px) {
-
-      body {
-        margin: 0;
-        padding: 0;
-        width: 100%;
-    }
-
-    .logo {
-      margin-left: 20px;
-      height: 60px;
-    }
-
-    #main-logo {
-      font-size: 1.3rem;
-    }
-
-    nav {
-
-          button {
-            margin-right: 20px;
-          }
-
-          li {
-            padding-right: 40px;
-          }
-      
-          li a{
-            text-align: right;
-            padding-right: 40px;
-            
-          }
-
-    }
-
-    
-    #profile {
-      padding: 4% 10%;
-      line-height: 1.5;
-      background-color: #fff;
-      display: inline-block;
-    
-      img {
-        height: 230px;
-        border: 10px solid #F3EFE0;
-        border-radius: 50%;
-        
-      }
-
-      .profile-sub-con {
-        display: block;
-        text-align: center;
-        
-      }
-    }
-
-    #experiences {
-      width: 100%;
-      padding: 4% 10%;
-      line-height: 1.5;
-    
-      h3 {
-        text-align: left;
-      }
-      
-      .experience-sub-cont {
-       display: block;
-       text-align: left;
-       margin-bottom: 30px;
-      }
-  
-    }
-
-    #abilities {
-      padding: 4% 10%;
-    }
-    
-    .abilities-sub-hd {
-      display: block;
-      margin-bottom: 20px;
-    }
-    
-    .abilities-info-hd {
-      margin-bottom: 0.7rem;
-    }
-
-    
-    // Project Section
-
-section#projects {
-  padding: 4% 10%;
-  line-height: 1.5;
-
-  img {
-    width: 100%;
-    overflow: hidden;
   }
-}
-
-.image-container {
-
-  display: block;
-}
-
-
-
-  
-    #contact {
-      a {
-        color: #727878;
-        font-weight: bold;
-        text-decoration: none;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-      }
-
-      span {
-        margin-left: 10px;
-      }
-
-    li.footer-li {
-
-      
-      margin: 15px;
-
-      :hover {
-        color: rgb(206, 202, 202);
-      }
-    }
-
-}
-
-}
-
-
-@media only screen and (max-width: 992px) {
-
-      body {
-        margin: 0;
-        padding: 0;
-        width: 100%;
-    }
-
-    .logo {
-      margin-left: 20px;
-      height: 60px;
-    }
-
-    #main-logo {
-      font-size: 1.3rem;
-    }
-
-    nav {
-
-          button {
-            margin-right: 20px;
-          }
-
-          li {
-            padding-right: 40px;
-          }
-      
-          li a{
-            text-align: right;
-            padding-right: 40px;
-            
-          }
-
-    }
-
-    
-    #profile {
-      padding: 4% 10%;
-      line-height: 1.5;
-      background-color: #fff;
-      display: inline-block;
-    
-      img {
-        height: 230px;
-        border: 10px solid #F3EFE0;
-        border-radius: 50%;
-        
-      }
-
-      .profile-sub-con {
-        display: block;
-        text-align: center;
-        
-      }
-    }
-
-    #contact {
-      a {
-        color: #727878;
-        font-weight: bold;
-        text-decoration: none;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-      }
-
-      span {
-        margin-left: 10px;
-      }
-
-    li.footer-li {
-
-      
-      margin: 15px;
-
-      :hover {
-        color: rgb(206, 202, 202);
-      }
-    }
-
-}
-
-  
 
 }
