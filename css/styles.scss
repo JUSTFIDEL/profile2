@@ -557,8 +557,13 @@ section#projects {
 
 .image-container {
 
-  display: block;
+  display: flex;
+  flex-direction: column;
+
+  
 }
+
+
 
 
     
@@ -587,6 +592,12 @@ section#projects {
       :hover {
         color: rgb(206, 202, 202);
       }
+    }
+
+    ul {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
     }
 
 }
@@ -650,6 +661,57 @@ section#projects {
       }
     }
 
+    #experiences {
+      width: 100%;
+      padding: 4% 10%;
+      line-height: 1.5;
+    
+      h3 {
+        text-align: left;
+      }
+      
+      .experience-sub-cont {
+       display: block;
+       text-align: left;
+       margin-bottom: 30px;
+      }
+  
+    }
+
+    #abilities {
+      padding: 4% 10%;
+    }
+    
+    .abilities-sub-hd {
+      display: block;
+      margin-bottom: 20px;
+    }
+    
+    .abilities-info-hd {
+      margin-bottom: 0.7rem;
+    }
+
+    
+    // Project Section
+
+section#projects {
+  padding: 4% 10%;
+  line-height: 1.5;
+
+  img {
+    width: 100%;
+    overflow: hidden;
+  }
+}
+
+.image-container {
+
+  display: block;
+}
+
+
+
+  
     #contact {
       a {
         color: #727878;
