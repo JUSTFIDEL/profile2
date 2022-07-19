@@ -335,7 +335,7 @@ figure.figurefx figcaption {
   font-size: 1.2rem;
 	padding: 15px;
 	z-index: 100;
-	width: 95%;
+	width: 100%;
 	max-height: 100%;
 	overflow: hidden;
 	top: 50%;
@@ -343,7 +343,7 @@ figure.figurefx figcaption {
 	-moz-transform: translate3d(-100%, -50%, 0); /* position caption outside layout horizontally and centered vertically */
 	-webkit-transform: translate3d(-100%, -50%, 0);
 	transform: translate3d(-100%, -50%, 0);
-	opacity: 0;
+	opacity: 0.35;
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
 	transition: all 0.5s;
@@ -363,7 +363,7 @@ figure.pushup img {
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
 	transition: all 0.3s;
-  width: 95%;
+  width: 100%;
 }
 
 figure.pushup figcaption {
@@ -391,7 +391,7 @@ figure.pushup:hover figcaption{
 	-webkit-transition: all 0.5s;
 	transition: ease-in-out 0.5s ;
   box-shadow: 0px -2px 28px rgba(0, 0, 0, 0.3);
-  width: 95%;
+  width: 100%;
 }
 
 // Contact Section 
@@ -488,6 +488,7 @@ figure.pushup:hover figcaption{
           }
 
     }
+}
 
     
     #profile {
