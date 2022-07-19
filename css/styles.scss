@@ -410,21 +410,10 @@ figure.pushup:hover figcaption{
     margin-bottom: 10px;
   } 
 
-  ul {
-    display: flex;
-    justify-content: space-around;
-    flex-direction: column;
-
-    
-  }
-
   a {
     color: #727878;
     font-weight: bold;
     text-decoration: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     margin: 10px;
   }
 
@@ -574,15 +563,16 @@ section#projects {
     
 
     #contact {
+      
       a {
         color: #727878;
         font-weight: bold;
         text-decoration: none;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding: 4% 10%;
-      }
+      //   display: flex;
+      //   justify-content: center;
+      //   align-items: center;
+      //   padding: 4% 5%;
+      // }
 
       span {
         margin-left: 10px;
