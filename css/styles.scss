@@ -144,7 +144,7 @@ nav.navbar ul {
   position: absolute;
   top: 0;
   left: 0;
-  right: 0;
+  right: 100%;
   bottom: 0;
   z-index: 1;
 }
@@ -818,3 +818,4 @@ color: rgb(206, 202, 202);
   }
 
 }
+
